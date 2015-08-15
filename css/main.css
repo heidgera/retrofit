@@ -1,0 +1,54 @@
+#mainMenu {
+	position: fixed;
+	height: 50pt;
+	top: 0pt;
+	left: 0pt;
+	z-index: 10;
+	width: 100%;
+	background-color: #ff5300;
+    box-shadow: 0px 2px 5px #999999;
+}
+
+#menuIcon {
+	position: relative;
+  	top: 0%;
+  	transform: translateY(-100%);
+    padding-left:20pt;
+    padding-right:20pt;
+}
+
+.content {
+	width:75%;
+	font-size: 20pt;
+}
+
+#popoutMenu {
+	position: fixed;
+	top: 0pt;
+	left: 0pt;
+	width:90%;
+	height:100%;
+	background-color: #eee;
+	box-shadow: 2px 0px 5px #999999;
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.popin {
+	-webkit-animation: popin 0.5s 1;
+	animation: popin 0.5s 1;
+}
+
+.popout {
+	-webkit-animation: popout 0.5s 1;
+	animation: popout 0.5s 1;
+}
+
+#test {
+	position: fixed;
+	top: 100pt;
+	left: 100pt;
+	width: 20pt;
+	height: 20pt;
+	background-color: #ff0000;
+}
